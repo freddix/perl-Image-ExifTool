@@ -1,3 +1,4 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/perl-Image-ExifTool.git
 %include	/usr/lib/rpm/macros.perl
 
 %define		pdir	Image
@@ -5,13 +6,13 @@
 
 Summary:	Perl module for reading and writing image metadata
 Name:		perl-Image-ExifTool
-Version:	9.65
+Version:	9.72
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://owl.phy.queensu.ca/~phil/exiftool/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a24e36fac884ad7801f6b99b2a4129c9
+# Source0-md5:	39363730ca7f58466119c1f6e6562415
 URL:		http://www.sno.phy.queensu.ca/~phil/exiftool/
 BuildRequires:	perl-devel
 BuildRequires:	rpm-perlprov
